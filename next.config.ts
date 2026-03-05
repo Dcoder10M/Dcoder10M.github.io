@@ -4,11 +4,6 @@ const nextConfig: NextConfig = {
   /* config options here */
   // skip strict mode
   reactStrictMode: false,
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true
-  },
   basePath: process.env.NODE_ENV === "production" ? "" : "",
   assetPrefix: process.env.NODE_ENV === "production" ? "" : "",
   env: {
